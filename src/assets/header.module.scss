@@ -1,0 +1,43 @@
+.header_wrap{
+    position: absolute;
+    background:transparent;
+    width:100%;
+    top:20px;
+    height:69px;
+    z-index: 1;
+    .header_inner{
+        padding-left:150px;
+        padding-right:150px;
+        position: relative;
+        .logo{
+            width:150px;
+            height:69px;
+            position: absolute;
+            top:0px;
+            left:150px;
+        }
+        .links{
+            width:500px;
+            position: absolute;
+            right:150px;
+            top:17px;
+            ul{
+                list-style: none;
+                text-align: right;
+                li{
+                    display: inline-block;
+                    margin-left:20px;
+                    a{
+                        color:#fff;
+                        font-size:1.6rem;
+                        letter-spacing: -1px;
+                        transition: color 1.0s ease;
+                        &:hover{
+                            color: #ec6d8f;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
