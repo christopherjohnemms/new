@@ -8,36 +8,25 @@ class IndexPage extends React.Component {
   render() {
     return (
       <div>
-    
-        <SlickSlider 
-            slideImageOne={this.props.data.slideImageOne} 
-            slideImageTwo={this.props.data.slideImageTwo} 
-            slideImageThree={this.props.data.slideImageThree} 
-            slideImageFour={this.props.data.slideImageFour} 
-            slideImageFive={this.props.data.slideImageFive} 
-        />
-
-        <h1>Hi people</h1>
-        <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
-
-
-            <div className={styles.test}>
-                <PrimaryButton buttonText="test!!!" />
-            </div>
-
-
-             <Link to="/page-2/">Go to page 2</Link>
-
-
-        </div>
+          <SlickSlider
+            slideImageOne=      {this.props.data.slideImageOne}
+            slideImageTwo=      {this.props.data.slideImageTwo}
+            slideImageThree=    {this.props.data.slideImageThree}
+            slideImageFour=     {this.props.data.slideImageFour}
+            slideImageFive=     {this.props.data.slideImageFive}
+          />
+          <div className={styles.content}>
+              <h1><span className={styles.pink}> Story tellers</span> first.</h1>
+              <p>Hi everyone! We're two ambitious, passionate wedding photographers from Staffordshire looking to capture the unparalelled memories
+              your day will bring. We thrive on the wedding atmosphere, bringing with us a focused and professional approach based on our foundations as
+              creative people.</p>
+          </div>
+      </div>
     );
   }
 }
 
-
 export default IndexPage
-
 
 export const pageQuery = graphql`
   query SliderImageQuery {
@@ -66,7 +55,5 @@ export const pageQuery = graphql`
         ...GatsbyImageSharpSizes
       }
     },
-
-
   }
 `

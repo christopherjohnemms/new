@@ -2,9 +2,11 @@
     position: absolute;
     background:transparent;
     width:100%;
-    top:20px;
-    height:69px;
+    top:0;
+    height: 88px;
     z-index: 1;
+    background: #ffffffd4;
+    padding: 10px 0px;
     .header_inner{
         padding-left:150px;
         padding-right:150px;
@@ -28,8 +30,8 @@
                     display: inline-block;
                     margin-left:20px;
                     a{
-                        color:#fff;
-                        font-size:1.6rem;
+                        color:#111111;
+                        font-size:1.3rem;
                         letter-spacing: -1px;
                         transition: color 1.0s ease;
                         &:hover{
