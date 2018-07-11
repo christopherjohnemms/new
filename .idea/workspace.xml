@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6f899eda-2985-432f-8f78-17630242b6b4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/assets/blogposts.module.scss" afterPath="$PROJECT_DIR$/src/assets/blogposts.module.scss" />
-      <change beforePath="$PROJECT_DIR$/src/assets/portfolio.module.scss" afterPath="$PROJECT_DIR$/src/assets/portfolio.module.scss" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog.js" afterPath="$PROJECT_DIR$/src/pages/blog.js" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/posts.js" afterPath="$PROJECT_DIR$/src/layouts/posts.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -92,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blogposts.module.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blogposts.module.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/blogposts.module.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            <state relative-caret-position="289">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -109,6 +107,18 @@
               <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/layouts/posts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,13 +142,13 @@
         <option value="$PROJECT_DIR$/gatsby-node.js" />
         <option value="$PROJECT_DIR$/src/pages/index.js" />
         <option value="$PROJECT_DIR$/src/layouts/index.js" />
-        <option value="$PROJECT_DIR$/src/layouts/posts.js" />
         <option value="$PROJECT_DIR$/src/blog-posts/first-blog-post.md" />
         <option value="$PROJECT_DIR$/gatsby-config.js" />
         <option value="$PROJECT_DIR$/static/admin/config.yml" />
         <option value="$PROJECT_DIR$/src/assets/portfolio.module.scss" />
         <option value="$PROJECT_DIR$/src/pages/blog.js" />
         <option value="$PROJECT_DIR$/src/assets/blogposts.module.scss" />
+        <option value="$PROJECT_DIR$/src/layouts/posts.js" />
       </list>
     </option>
   </component>
@@ -261,12 +271,12 @@
       <option name="presentableId" value="Default" />
       <updated>1531211590056</updated>
       <workItem from="1531211591565" duration="9435000" />
-      <workItem from="1531297088486" duration="3047000" />
+      <workItem from="1531297088486" duration="3393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12482000" />
+    <option name="totallyTimeSpent" value="12828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -383,7 +393,7 @@
         <state relative-caret-position="306">
           <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding>
-            <element signature="e#0#26#0" expanded="false" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -556,16 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/posts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/blog.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -578,9 +578,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/blogposts.module.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/posts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

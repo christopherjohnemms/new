@@ -5,10 +5,12 @@ import styles from '../assets/blogposts.module.scss'
 export default ({ data }) => {
     const post = data.markdownRemark;
     return (
-        <div className={styles.blogpost}>
-            <h1>{post.frontmatter.title}</h1>
-            <h4 style={{color: 'rgb(165, 164, 164)'}}>{post.frontmatter.author} <span style={{fontSize: '0.8em'}}> -{post.frontmatter.date}</span></h4>
-            <div dangerouslySetInnerHTML = {{ __html: post.html }}/>
+        <div className={styles.pagecontent}>
+            <div className={styles.blogpost}>
+                <h1>{post.frontmatter.title}</h1>
+                <h4 style={{color: 'rgb(165, 164, 164)'}}>{post.frontmatter.author} <span style={{fontSize: '0.8em'}}> -{post.frontmatter.date}</span></h4>
+                <div dangerouslySetInnerHTML = {{ __html: post.html }}/>
+            </div>
         </div>
     );
 };
