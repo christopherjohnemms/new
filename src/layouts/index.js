@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Img from "gatsby-image";
 import Header from '../components/header/header'
+import styles from '../assets/index.module.scss'
 import '../assets/fonts.css';
 
 
@@ -16,7 +17,9 @@ const Layout = ({ children, data }) => (
       ]}
     />
     <Header siteTitle={data.site.siteMetadata.title} HeaderImage={data.HeaderImage}  />
-      {children()}
+      <div className={styles.body}>
+          {children()}
+      </div>
   </div>
 )
 

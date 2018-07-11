@@ -1,17 +1,26 @@
+$pink: #dc518b;
+
 .test{
     background:red;
     p{
         font-size:50px;
     }
 }
-
 .pink{
-  color: #dc518b;
+  color: $pink;
 }
-
 .content{
     padding:50px;
     text-align: center;
     margin:20px auto;
     max-width: 700px;
+}
+a{
+    color: $pink;
+}
+
+.body{
+    a{
+        color: $pink;
+    }
 }
