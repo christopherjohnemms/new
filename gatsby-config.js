@@ -4,10 +4,18 @@ module.exports = {
   },
   plugins: ['gatsby-plugin-react-helmet',
             'gatsby-plugin-sass',
-            'gatsby-transformer-sharp',
-            `gatsby-transformer-remark`,
-              `gatsby-plugin-sharp`,
-              {
+            'gatsby-plugin-netlify-cms',
+            {
+                resolve: `gatsby-source-filesystem`,
+                options: {
+                    path: `${__dirname}/src/blog-posts`,
+                    name: 'markdown-pages', 
+                },
+            },
+                'gatsby-transformer-sharp',
+                'gatsby-transformer-remark',
+              'gatsby-plugin-sharp',
+                {
                   resolve: `gatsby-transformer-remark`,
                   options: {
                       plugins: [
