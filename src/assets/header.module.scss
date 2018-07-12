@@ -1,3 +1,5 @@
+@import './src/assets/mixins.scss';
+
 .header_wrap{
     position: absolute;
     background:transparent;
@@ -11,18 +13,40 @@
         padding-left:150px;
         padding-right:150px;
         position: relative;
+        @include col-xs(){
+            padding-left:50px;
+            padding-right:50px;
+        }
         .logo{
             width:150px;
             height:69px;
             position: absolute;
             top:0px;
             left:150px;
+            @include col-sm(){
+                left:50px;
+            }
+            @include col-sm(){
+                left:50px;
+            }
+            @include col-xs(){
+                left:50px;
+            }
         }
         .links{
             width:500px;
             position: absolute;
             right:150px;
             top:17px;
+            @include col-md(){
+                right:50px;
+            }
+            @include col-sm(){
+                right:50px;
+            }
+            @include col-xs(){
+                right:50px;
+            }
             ul{
                 list-style: none;
                 text-align: right;

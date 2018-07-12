@@ -8,6 +8,9 @@ class IndexPage extends React.Component {
   render() {
     return (
       <div>
+          <div className={"test"}>
+              <div className={"test"}></div>
+          </div>
           <SlickSlider
             slideImageOne=      {this.props.data.slideImageOne}
             slideImageTwo=      {this.props.data.slideImageTwo}
