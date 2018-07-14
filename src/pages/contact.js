@@ -22,7 +22,10 @@ const ContactPage = () => (
             </div>
             
             <div className={styles.padding}>
-                <form name="contact" method="POST" action="/success" netlify>
+                <form name="contact" method="POST" action="/success" netlify-honeypot="bot-field" netlify>
+                     <p className={styles.hidden}>
+                        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                      </p>
                      <p>
                         <label>Your Name: <br /> <input type="text" name="name" /></label>   
                       </p>
@@ -50,7 +53,7 @@ const ContactPage = () => (
         </div>
         
         
-        <Link to="/">Go back to the homepage</Link>
+        <Link to="/success">Go back to the homepage</Link>
     </div>
 )
 
