@@ -22,7 +22,7 @@ const ContactPage = () => (
             </div>
             
             <div className={styles.padding}>
-                <form name="contact" method="POST"  netlify-honeypot="bot-field" netlify>
+                <form name="contact" method="POST"  netlify-honeypot="bot-field" data-netlify="true">
                      <p className={styles.hidden}>
                         <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                       </p>
@@ -45,7 +45,7 @@ const ContactPage = () => (
                         <label>What can we do for you?:<br /> <textarea name="message"></textarea></label>
                     </p>
                       <p>
-                        <button type="submit">Send</button>
+                        <button>Send</button>
                       </p>
 
                 </form>
