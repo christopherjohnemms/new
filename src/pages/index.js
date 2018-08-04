@@ -20,10 +20,19 @@ class IndexPage extends React.Component {
           />
           <div className={styles.content}>
               <h1><span className={styles.pink}> Story tellers</span> first.</h1>
-              <p>Hi everyone! We're two ambitious, passionate wedding photographers from Staffordshire looking to capture the unparalelled memories
+              <p>We thrive on capturing those amazing and unique moments that happen when people forget the cameras are there. When you hire a wedding photographer you are inviting someone into one of the most precious chapters of your life and trusting them to tell this part of your story. We stay true to our vision by using a photojournalistic style to document those fleeting moments, providing a true reflection of your wedding day.</p>
+          </div>
+            
+            
+            <div className={styles.content}>
+              <h1>We are <span className={styles.pink}> Sam & Chris</span>.</h1>
+              <p>We're two ambitious, passionate wedding photographers from Staffordshire looking to capture the unparalelled memories
               your day will bring. We thrive on the wedding atmosphere, bringing with us a focused and professional approach based on our foundations as
               creative people.</p>
-          </div>
+                <div className={styles.bookus}>
+                    <Link to="/contact/">BOOK US</Link> <span> | </span><Link to="/portfolio/">LEARN MORE</Link>
+                </div>
+            </div>
       </div>
     );
   }

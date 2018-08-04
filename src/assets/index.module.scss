@@ -1,10 +1,12 @@
+@import './src/assets/mixins.scss';
+
 $pink: #dc518b;
 
 .pink{
   color: $pink;
 }
 .content{
-    padding:50px;
+    padding:50px 50px 0px 50px;
     text-align: center;
     margin:20px auto;
     max-width: 700px;
@@ -12,9 +14,97 @@ $pink: #dc518b;
 a{
     color: $pink;
 }
-
 .body{
     a{
         color: $pink;
+    }
+}
+
+.contentwrap{
+    
+}
+
+.bookus{
+    text-align: center;
+    margin-bottom:6rem;
+    span,a{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top:  1.16rem;
+    margin-bottom: 1.16rem;
+    color: inherit;
+    font-family: 'Domine',sans-serif;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    font-size: 1.8rem;
+    }
+    span{
+        display: inline-block;
+        margin:0px 15px;
+    }
+    a{
+        &:hover{
+            color:$pink;
+        }
+    }
+}
+
+
+.social{
+    border-top:1px solid #ddd;
+    p{
+        font-size:1.6rem;
+        text-align: center;
+        margin-top:50px;
+    }
+    .icons{
+        @include clearfix;
+        width:273px;
+        margin:0 auto 50px auto;
+        height:auto;
+        .icon{
+            width:64px;
+            float:left;
+            margin-right:40px;
+            img{
+                display: block;
+                margin:0 auto;
+            }
+            &:last-child{
+                margin-right:0px;
+            }
+        }
+    }
+}
+
+.footer{
+    width:100%;
+    height:auto;
+    padding:15px 15px;
+    background:#1f1f1f;
+    @include clearfix;
+    .right{
+        padding-right:50px;
+        text-align:center;
+            @include col-xs(){
+                float:none;
+                text-align: center;
+                padding-right:0px;
+            }
+        p{
+            display: inline-block;
+            color:#fff;
+            font-size:1.1em;
+            margin-right:30px;
+            margin-bottom:0px;
+        }
+        small{
+            display: inline-block;
+            color:#fff;
+        }
     }
 }
