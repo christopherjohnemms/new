@@ -1,6 +1,17 @@
+@import './src/assets/mixins.scss';
+
+$pink: #dc518b;
+
+.pink{
+  color: $pink;
+}
+
 .pagecontent{
   padding:100px 50px 50px 50px;
   margin:20px auto;
   max-width:800px;
 
+    .title{
+        text-align: center;
+    }
 }

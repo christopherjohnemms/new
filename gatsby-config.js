@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: '__',
+    title: 'Ember Photography | Staffordshire Wedding Photography',
   },
   plugins: ['gatsby-plugin-react-helmet',
             'gatsby-plugin-sass',
@@ -53,6 +53,15 @@ module.exports = {
                   path: `${__dirname}/src/imgs/`
                 }
               },
+            {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-106872847-1",
+        head: false,
+        anonymize: true,
+        respectDNT: true,
+      },
+    },
             
            ],
 }

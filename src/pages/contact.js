@@ -4,15 +4,13 @@ import styles from '../assets/contact.module.scss'
 
 
 const ContactPage = () => (
-    <div className={styles.pagecontent}>
-        <h1>We <span className={styles.pink}>can't wait</span> to hear from you</h1>
-        <h2>Use the form below to drop us a message, whether its an 
-            enquiry or a friendly chat, we don't mind! </h2>
-        
-        
-        <div className={styles.formcontent}>
+    <div>
+        <div className={styles.pagecontent}>
+            <h1>We <span className={styles.pink}>can't wait</span> to hear from you</h1>
+            <h2>Use the form below to drop us a message, whether its an 
+                enquiry or a friendly chat, we don't mind! </h2>
             
-            <div>
+             <div>
             
                 <p>For all enquiries or questions, please don't hesitate to use the form on this page to instantly get in contact with us through email.</p>
                 
@@ -20,6 +18,13 @@ const ContactPage = () => (
                 
                 <p>If you prefer to contact us by phone, please give us a call on 07972345095. If we are busy or unable to take your call at that moment, please use the voicemail service and let us know your details so we can get back to you as soon as possible!</p>
             </div>
+        </div>
+        
+        <div className={styles.pagecontentwide}>
+            <div className={styles.pcontent}>
+            <div className={styles.formcontent}>
+            
+           
             
             <div className={styles.padding}>
                 <form name="contact" action="/thanks/" method="POST"  netlify-honeypot="bot-field" data-netlify="true">
@@ -28,13 +33,13 @@ const ContactPage = () => (
                       </p>
                         <input type="hidden" name="form-name" value="contact" />
                      <p>
-                        <label>Your Name: <br /> <input type="text" name="name" /></label>   
+                        <label>Your Name <br /> <input type="text" name="name" /></label>   
                       </p>
                         <p>
-                        <label>Your Email: <br /><input type="email" name="email" /></label>
+                        <label>Your Email <br /><input type="email" name="email" /></label>
                       </p>
                       <p>
-                        <label>Phone Number:<br /> <input type="text" name="phone" /></label>
+                        <label>Phone Number<br /> <input type="text" name="phone" /></label>
                       </p>
                      <p>
                         <label>Wedding Date (if you have one!)<br /> <input type="text" name="wedding_date" /></label>
@@ -43,7 +48,7 @@ const ContactPage = () => (
                         <label>Location (if you have one!) <br /><input type="text" name="location" /></label>
                       </p>
                       <p>
-                        <label>What can we do for you?:<br /> <textarea name="message"></textarea></label>
+                        <label>What kind of photography are you looking for?<br /> <textarea name="message"></textarea></label>
                     </p>
                       <p>
                         <button>Send</button>
@@ -52,10 +57,22 @@ const ContactPage = () => (
                 </form>
             </div>
         </div>
+            
+            
+            </div>
+        </div>
+        <div className={styles.title}>
+        <div className={styles.pagecontent}>
+                        <Link to="/thanks">Go back to the homepage</Link>
+
+        </div>
+        </div>
         
+    
         
-        <Link to="/thanks">Go back to the homepage</Link>
     </div>
+    
+    
 )
 
 

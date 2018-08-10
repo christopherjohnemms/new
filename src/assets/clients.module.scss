@@ -1,0 +1,28 @@
+@import './src/assets/mixins.scss';
+
+$pink: #dc518b;
+
+.pink{
+  color: $pink;
+}
+
+.pagecontent{
+  padding:100px 50px 50px 50px;
+  margin:20px auto;
+  max-width:1610px;
+
+    .title{
+        text-align: center;
+    }
+}
+.aboutimg{
+    width:100%;
+    margin:40px auto 60px auto;
+    img{
+        width:100%;
+        display: block;
+    }
+}
+.slideshow{
+    margin:40px auto;
+}
