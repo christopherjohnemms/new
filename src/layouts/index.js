@@ -80,7 +80,7 @@ export const query = graphql`
       }
     }
     HeaderImage: imageSharp(id: { regex: "header/ember_logo.png/" }) {
-      sizes(maxWidth: 150 ) {
+      sizes(maxWidth: 150, quality:90 ) {
         ...GatsbyImageSharpSizes_tracedSVG
       }
     },
