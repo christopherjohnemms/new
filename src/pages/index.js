@@ -13,11 +13,11 @@ class IndexPage extends React.Component {
               <div className={"test"}></div>
           </div>
           <SlickSlider
-            slideImageOne=      {this.props.data.slideImageOne}
+            slideImageOne=      {this.props.data.slideImageTwo}
             slideImageTwo=      {this.props.data.slideImageTwo}
-            slideImageThree=    {this.props.data.slideImageThree}
-            slideImageFour=     {this.props.data.slideImageFour}
-            slideImageFive=     {this.props.data.slideImageFive}
+            slideImageThree=    {this.props.data.slideImageTwo}
+            slideImageFour=     {this.props.data.slideImageTwo}
+            slideImageFive=     {this.props.data.slideImageTwo}
           />
           <div className={styles.content}>
               <h1><span className={styles.pink}> Story tellers</span> first.</h1>
