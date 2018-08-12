@@ -30,7 +30,10 @@
                 left:50px;
             }
             @include col-xs(){
-                left:50px;
+                left:15px;
+                width: 102px;
+                position: absolute;
+                top: 9px;
             }
             img{
                 width:150px;
@@ -48,7 +51,7 @@
                 right:50px;
             }
             @include col-xs(){
-                right:50px;
+                right:15px;
             }
             ul{
                 list-style: none;
@@ -56,6 +59,9 @@
                 li{
                     display: inline-block;
                     margin-left:20px;
+                    @include col-xs(){
+                        margin-left:10px;
+                    }
                     a{
                         color:#111111;
                         font-size:1.3rem;
