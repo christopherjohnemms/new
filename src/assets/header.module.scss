@@ -70,6 +70,9 @@
                         &:hover{
                             color: #ec6d8f;
                         }
+                        @include col-xs(){
+                        font-size:0.9rem;
+                    }
                     }
                 }
             }
