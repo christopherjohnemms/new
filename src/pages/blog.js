@@ -27,7 +27,12 @@ export default BlogPage
 
 export const  query = graphql`
 query BlogPageQuery{
-  allMarkdownRemark(sort: {fields: [frontmatter___date], order: ASC}) {
+  allMarkdownRemark(
+  sort: {fields: [frontmatter___date], order: ASC},
+  filter: {
+      frontmatter: { type: { eq: "Blog" } }
+    },
+  ) {
     totalCount
     edges {
       node {
