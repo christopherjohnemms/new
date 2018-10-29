@@ -6,11 +6,11 @@ import styles from '../assets/blogposts.module.scss'
 const BlogPage = ({data}) => (
     <div className={styles.pagecontent}>
         <h1>Blog Page</h1>
-        <p>Lorem Ipsum</p>
+        <p>Currently migrating blog posts from the old site</p>
         <Link to="/">Go back to the homepage</Link>
 
 
-        <div>
+        <div className={styles.hidden}>
             {data.allMarkdownRemark.edges.map(({node}) => (
                 <div key={node.id} className={styles.articlebox}>
                     <Link to={node.fields.slug} style={{textDecoration: 'none', color: 'inherit'}}><h3 className="title">{node.frontmatter.title}</h3></Link>

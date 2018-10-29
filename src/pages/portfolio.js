@@ -10,8 +10,8 @@ const PortfolioPage = ({data}) => (
         <p>We are currently updating our website and migrating these images.. </p>
         <Link to="/">Go back to the homepage</Link>
 
-
-        <div>
+    
+        <div className={styles.hidden}>
             {data.allMarkdownRemark.edges.map(({node}) => (
                 <div key={node.id} className={styles.articlebox}>
                     <Link to={node.fields.slug} style={{textDecoration: 'none', color: 'inherit'}}><h3 className="title">{node.frontmatter.title}</h3></Link>
