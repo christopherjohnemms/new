@@ -102,6 +102,22 @@ const SlickSlider = props => (
                     />
                 </div>
             </div>
+            <div>
+                <div style={{  width:"100%" , height:"100vh", overflow:"hidden", position:"relative" }}>
+                    <Img
+                      title="Image 6"
+                      alt="Wedding"
+                      sizes={props.slideImageSix.sizes}
+                         style={{
+                            position: "absolute",
+                            left: 0,
+                            top: 0,
+                            width: "100%",
+                            height: "100%"
+                          }}
+                    />
+                </div>
+            </div>
           </Slider>
     </div>
 )         

@@ -13,11 +13,12 @@ class IndexPage extends React.Component {
               <div className={"test"}></div>
           </div>
           <SlickSlider
-            slideImageOne=      {this.props.data.slideImageTwo}
+            slideImageOne=      {this.props.data.slideImageOne}
             slideImageTwo=      {this.props.data.slideImageTwo}
-            slideImageThree=    {this.props.data.slideImageTwo}
-            slideImageFour=     {this.props.data.slideImageTwo}
-            slideImageFive=     {this.props.data.slideImageTwo}
+            slideImageThree=    {this.props.data.slideImageThree}
+            slideImageFour=     {this.props.data.slideImageFour}
+            slideImageFive=     {this.props.data.slideImageFive}
+            slideImageSix=     {this.props.data.slideImageSix}
           />
           <div className={styles.content}>
               <h1><span className={styles.pink}> Story tellers</span> first.</h1>
@@ -52,12 +53,12 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query SliderImageQuery {
-    slideImageOne: imageSharp(id: { regex: "/home/7.jpg/" }) {
+    slideImageOne: imageSharp(id: { regex: "/home/1.jpg/" }) {
       sizes(maxWidth: 2400, quality:95  ) {
         ...GatsbyImageSharpSizes
       }
     },
-    slideImageTwo: imageSharp(id: { regex: "/home/8.jpg/" }) {
+    slideImageTwo: imageSharp(id: { regex: "/home/2.jpg/" }) {
       sizes(maxWidth: 2400, quality:95 ) {
         ...GatsbyImageSharpSizes
       }
@@ -67,12 +68,17 @@ export const pageQuery = graphql`
         ...GatsbyImageSharpSizes
       }
     },
-    slideImageFour: imageSharp(id: { regex: "/home/2.jpg/" }) {
-      sizes(maxWidth: 240, quality:95 ) {
+    slideImageFour: imageSharp(id: { regex: "/home/4.jpg/" }) {
+      sizes(maxWidth: 2400, quality:95 ) {
         ...GatsbyImageSharpSizes
       }
     },
-    slideImageFive: imageSharp(id: { regex: "/home/9.jpg/" }) {
+    slideImageFive: imageSharp(id: { regex: "/home/5.jpg/" }) {
+      sizes(maxWidth: 2400, quality:95 ) {
+        ...GatsbyImageSharpSizes
+      }
+    },
+    slideImageSix: imageSharp(id: { regex: "/home/6.jpg/" }) {
       sizes(maxWidth: 2400, quality:95 ) {
         ...GatsbyImageSharpSizes
       }
