@@ -37,7 +37,7 @@ const Layout = ({ children, data }) => (
                 <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
         
         </Helmet>
-    <Header siteTitle={data.site.siteMetadata.title} HeaderImage={data.HeaderImage}  />
+    <Header siteTitle={data.site.siteMetadata.title} HeaderImage={data.HeaderImage}   />
       <div className={styles.body}>
           {children()}
       </div>
