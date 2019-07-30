@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6f899eda-2985-432f-8f78-17630242b6b4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/index.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/prices.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/prices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/video/clientvideo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/clients/frances-and-tom.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="640">
-              <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -93,6 +92,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>clients</find>
+      <find>Plyr</find>
       <find>plyr</find>
     </findStrings>
   </component>
@@ -123,6 +124,7 @@
         <option value="$PROJECT_DIR$/src/assets/header.module.scss" />
         <option value="$PROJECT_DIR$/src/assets/index.module.scss" />
         <option value="$PROJECT_DIR$/src/pages/prices.js" />
+        <option value="$PROJECT_DIR$/src/components/video/clientvideo.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -155,6 +157,12 @@
               <item name="new" type="b2602c69:ProjectViewProjectNode" />
               <item name="new" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -162,13 +170,6 @@
               <item name="new" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="clients" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -207,12 +208,12 @@
       <updated>1531211590056</updated>
       <workItem from="1531211591565" duration="9435000" />
       <workItem from="1531297088486" duration="8956000" />
-      <workItem from="1564493616763" duration="1799000" />
+      <workItem from="1564493616763" duration="2401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20190000" />
+    <option name="totallyTimeSpent" value="20792000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-25" width="1936" height="1056" extended-state="6" />
@@ -433,10 +434,37 @@
     <entry file="file://$PROJECT_DIR$/gatsby-ssr.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/clients/frances-and-tom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/video/clientvideo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.cache/redux-state.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="1276" column="32" selection-start-line="1276" selection-start-column="32" selection-end-line="1276" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="640">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
         </state>
       </provider>
     </entry>
