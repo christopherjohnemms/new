@@ -19,3 +19,26 @@ $pink: #dc518b;
 .hidden{
   display:none;
 }
+
+.grid{
+  display:flex;
+  flex-wrap:wrap;
+  .item{
+    flex:1;
+    flex-basis: 33%;
+    max-height:420px;
+    img{
+      display: block;
+      width:100%;
+    }
+  }
+  .itemdouble{
+    flex:1;
+    flex-basis: 66%;
+    max-height:420px;
+    img{
+      display: block;
+      width:100%;
+    }
+  }
+}
