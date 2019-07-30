@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "prettier": "^1.12.0",
-    "react-plyr": "^1.2.4"
+    "react-plyr": "^1.8.1"
   },
   "repository": {
     "type": "git",
