@@ -15,6 +15,7 @@ We believe that some of the most amazing moments unfold when everyone lets loose
             For this you will get:
         </p>
 
+
         <ul>
             <li>A face-to-face meetup if your location is within 100 miles of Lichfield - if not then we can organise a skype or other VOIP program to have a chat so we can get to know you and what you're looking for!</li>
             <li>A pre-wedding shoot</li>
